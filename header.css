@@ -1,0 +1,63 @@
+header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(45deg, black, blue);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: 0 0 24px green;
+    position: fixed;
+    z-index: 999;
+}
+
+.menusuperior {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menusuperior button {
+    display: none;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-family: cursive;
+}
+
+.menu {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.menu ul li {
+    font-size: 18px;
+}
+
+.menu ul li:hover {
+    transition: .5s ease-out;
+    transform: scale(1.2);
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .5s linear;
+    padding: 30px 10px;
+}
+
+.menu ul li a:hover {
+    color: yellow;
+}

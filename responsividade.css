@@ -1,0 +1,81 @@
+@media screen and (max-width:1021px) {
+    #inicio {
+        flex-direction: column-reverse;
+    }
+
+    .imgprincipal {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imgprincipal img {
+        object-fit: contain;
+    }
+
+    .btnsrdsocial {
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .btnsrdsocial a {
+        width: 100%;
+    }
+
+    .txtprincipal {
+        padding: 30px;
+        font-size: 16px;
+        font-family: sans-serif;
+        flex-direction: column;
+        color: white;
+    }
+
+    .txtprincipal h2 {
+        text-align: justify;
+    }
+
+    .txtprincipal p {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .menusuperior button {
+        display: flex;
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .menusuperior button i {
+        font-size: 30px;
+        color: white;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .menusuperior,
+    ul {
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+    }
+
+    ul {
+        transition: .8s;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .menusuperior button:focus~.menu ul {
+        height: 300px;
+    }
+
+    html {
+        scroll-padding-top: 160px;
+    }
+}
